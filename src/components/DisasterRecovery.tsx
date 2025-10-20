@@ -4,26 +4,26 @@ import { RefreshCw, CloudOff, ArrowLeftRight, CheckCircle2, Zap } from "lucide-r
 const drFeatures = [
   {
     icon: Zap,
-    title: "Local Recovery",
-    description: "Instant VM recovery directly from Arupa Box appliance",
+    title: "Recovery Lokal",
+    description: "Recovery VM instan langsung dari perangkat Arupa Box",
     color: "text-primary"
   },
   {
     icon: CloudOff,
-    title: "Cloud DR Failover",
-    description: "Automatic or manual failover to Arupa Cloud DR site",
+    title: "Failover Cloud DR",
+    description: "Failover otomatis atau manual ke situs DR Arupa Cloud",
     color: "text-accent"
   },
   {
     icon: ArrowLeftRight,
-    title: "Failback to Primary",
-    description: "Seamless return to primary site after recovery",
+    title: "Failback ke Primer",
+    description: "Kembali mulus ke situs utama setelah pemulihan",
     color: "text-primary"
   },
   {
     icon: CheckCircle2,
-    title: "DR Orchestration & Testing",
-    description: "Scheduled DR drills to validate RTO/RPO compliance",
+    title: "Orkestrasi & Pengujian DR",
+    description: "Latihan DR terjadwal untuk validasi kepatuhan RTO/RPO",
     color: "text-accent"
   }
 ];
@@ -40,7 +40,7 @@ const DisasterRecovery = () => {
             Disaster Recovery (DR)
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Complete business continuity with automated failover and recovery capabilities
+            Keberlangsungan bisnis lengkap dengan failover otomatis dan kemampuan recovery
           </p>
         </div>
         
@@ -66,34 +66,34 @@ const DisasterRecovery = () => {
         <Card className="p-8 md:p-12 border-2 border-primary/20 bg-gradient-to-br from-primary/5 to-accent/5">
           <div className="max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-foreground mb-6 text-center">
-              How Arupa DR Works
+              Cara Kerja Arupa DR
             </h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center mx-auto mb-4 font-bold text-lg">
                   1
                 </div>
-                <h4 className="font-semibold mb-2 text-foreground">Continuous Replication</h4>
+                <h4 className="font-semibold mb-2 text-foreground">Replikasi Berkelanjutan</h4>
                 <p className="text-sm text-muted-foreground">
-                  Data continuously replicated from Arupa Box to Arupa Cloud DR site
+                  Data direplikasi secara berkelanjutan dari Arupa Box ke situs DR Arupa Cloud
                 </p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 rounded-full bg-accent text-accent-foreground flex items-center justify-center mx-auto mb-4 font-bold text-lg">
                   2
                 </div>
-                <h4 className="font-semibold mb-2 text-foreground">Automated Failover</h4>
+                <h4 className="font-semibold mb-2 text-foreground">Failover Otomatis</h4>
                 <p className="text-sm text-muted-foreground">
-                  In case of primary site failure, workloads automatically activate in cloud
+                  Jika terjadi kegagalan situs utama, workload otomatis diaktifkan di cloud
                 </p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center mx-auto mb-4 font-bold text-lg">
                   3
                 </div>
-                <h4 className="font-semibold mb-2 text-foreground">Seamless Failback</h4>
+                <h4 className="font-semibold mb-2 text-foreground">Failback Mulus</h4>
                 <p className="text-sm text-muted-foreground">
-                  Once primary site is restored, workloads return with zero data loss
+                  Setelah situs utama dipulihkan, workload kembali tanpa kehilangan data
                 </p>
               </div>
             </div>

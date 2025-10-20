@@ -13,50 +13,50 @@ import {
 const features = [
   {
     icon: Package,
-    title: "All-in-One Solution",
-    description: "Complete hardware, software, and managed service in a single package",
+    title: "Solusi All-in-One",
+    description: "Perangkat keras, perangkat lunak, dan layanan terkelola lengkap dalam satu paket",
     color: "text-primary"
   },
   {
     icon: Zap,
-    title: "Easy & Fast Management",
-    description: "Intuitive dashboard with automated workflows and monitoring",
+    title: "Pengelolaan Mudah & Cepat",
+    description: "Dashboard intuitif dengan workflow otomatis dan monitoring",
     color: "text-accent"
   },
   {
     icon: HardDrive,
-    title: "Local + Cloud Backup",
-    description: "Best of both worlds: fast local recovery and secure cloud storage",
+    title: "Backup Lokal + Cloud",
+    description: "Kombinasi terbaik: recovery lokal cepat dan penyimpanan cloud aman",
     color: "text-primary"
   },
   {
     icon: CloudCog,
-    title: "Integrated Disaster Recovery",
-    description: "Automated failover to cloud DR site for business continuity",
+    title: "Disaster Recovery Terintegrasi",
+    description: "Failover otomatis ke situs DR cloud untuk keberlangsungan bisnis",
     color: "text-accent"
   },
   {
     icon: Headphones,
-    title: "24/7 Managed Service",
-    description: "Professional engineers monitoring and managing your backup infrastructure",
+    title: "Layanan Terkelola 24/7",
+    description: "Teknisi profesional memantau dan mengelola infrastruktur backup Anda",
     color: "text-primary"
   },
   {
     icon: TrendingUp,
-    title: "Flexible Scalability",
-    description: "Grow your backup capacity as your business expands",
+    title: "Skalabilitas Fleksibel",
+    description: "Kembangkan kapasitas backup Anda seiring pertumbuhan bisnis",
     color: "text-accent"
   },
   {
     icon: Lock,
-    title: "High-Level Data Security",
-    description: "End-to-end encryption, ransomware protection, and compliance ready",
+    title: "Keamanan Data Tingkat Tinggi",
+    description: "Enkripsi end-to-end, perlindungan ransomware, dan siap kepatuhan",
     color: "text-primary"
   },
   {
     icon: Wallet,
-    title: "Cost Efficiency",
-    description: "OPEX model eliminates large upfront investments and reduces TCO",
+    title: "Efisiensi Biaya",
+    description: "Model OPEX menghilangkan investasi besar di awal dan mengurangi TCO",
     color: "text-accent"
   }
 ];
@@ -67,10 +67,10 @@ const Features = () => {
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Key Features & Advantages
+            Fitur Utama & Keunggulan
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Everything you need for comprehensive data protection and business continuity
+            Semua yang Anda butuhkan untuk perlindungan data komprehensif dan keberlangsungan bisnis
           </p>
         </div>
         

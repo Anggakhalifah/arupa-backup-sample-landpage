@@ -11,10 +11,10 @@ const Pricing = () => {
             <DollarSign className="w-10 h-10 text-primary" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Flexible Subscription Model
+            Model Berlangganan Fleksibel
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            Arupa Backup uses an OPEX-based subscription that includes hardware, software, and managed service.
+            Arupa Backup menggunakan berlangganan berbasis OPEX yang mencakup perangkat keras, perangkat lunak, dan layanan terkelola.
           </p>
         </div>
         
@@ -25,11 +25,11 @@ const Pricing = () => {
             </div>
             <div>
               <h3 className="text-2xl font-bold text-foreground mb-3">
-                Pay-As-You-Grow Pricing
+                Harga Bayar Sesuai Pertumbuhan
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Pricing depends on backup capacity used — scale up or down based on your actual needs. 
-                No large upfront investments, just predictable monthly costs.
+                Harga tergantung pada kapasitas backup yang digunakan — naikkan atau turunkan berdasarkan kebutuhan aktual Anda. 
+                Tanpa investasi besar di awal, hanya biaya bulanan yang dapat diprediksi.
               </p>
             </div>
           </div>
@@ -38,29 +38,29 @@ const Pricing = () => {
             <div className="flex items-start gap-3">
               <CheckCircle2 className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
               <div>
-                <h4 className="font-semibold text-foreground mb-1">All-Inclusive</h4>
-                <p className="text-sm text-muted-foreground">Hardware, software, and managed service in one subscription</p>
+                <h4 className="font-semibold text-foreground mb-1">Semua Termasuk</h4>
+                <p className="text-sm text-muted-foreground">Perangkat keras, perangkat lunak, dan layanan terkelola dalam satu berlangganan</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <CheckCircle2 className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
               <div>
-                <h4 className="font-semibold text-foreground mb-1">No Hidden Costs</h4>
-                <p className="text-sm text-muted-foreground">Transparent pricing with no surprise charges or maintenance fees</p>
+                <h4 className="font-semibold text-foreground mb-1">Tanpa Biaya Tersembunyi</h4>
+                <p className="text-sm text-muted-foreground">Harga transparan tanpa biaya mengejutkan atau biaya pemeliharaan</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <CheckCircle2 className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
               <div>
-                <h4 className="font-semibold text-foreground mb-1">Flexible Scaling</h4>
-                <p className="text-sm text-muted-foreground">Adjust capacity as your data grows without service disruption</p>
+                <h4 className="font-semibold text-foreground mb-1">Skalabilitas Fleksibel</h4>
+                <p className="text-sm text-muted-foreground">Sesuaikan kapasitas saat data Anda bertambah tanpa gangguan layanan</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <CheckCircle2 className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
               <div>
-                <h4 className="font-semibold text-foreground mb-1">Lower TCO</h4>
-                <p className="text-sm text-muted-foreground">Reduced total cost of ownership compared to traditional solutions</p>
+                <h4 className="font-semibold text-foreground mb-1">TCO Lebih Rendah</h4>
+                <p className="text-sm text-muted-foreground">Total biaya kepemilikan lebih rendah dibandingkan solusi tradisional</p>
               </div>
             </div>
           </div>
@@ -68,10 +68,10 @@ const Pricing = () => {
         
         <div className="text-center">
           <p className="text-lg text-muted-foreground mb-6">
-            Get a customized quote based on your specific requirements
+            Dapatkan penawaran yang disesuaikan berdasarkan kebutuhan spesifik Anda
           </p>
           <Button size="xl" variant="hero" className="group">
-            Contact Sales for Pricing
+            Hubungi Sales untuk Harga
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
         </div>

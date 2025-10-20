@@ -9,20 +9,20 @@ const FinalCTA = () => {
       <div className="container mx-auto max-w-4xl relative z-10">
         <div className="text-center animate-fade-in">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Ready to Protect Your Business Data?
+            Siap Melindungi Data Bisnis Anda?
           </h2>
           <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-2xl mx-auto">
-            Join organizations that trust Arupa Backup for complete data protection and business continuity
+            Bergabunglah dengan organisasi yang mempercayai Arupa Backup untuk perlindungan data lengkap dan keberlangsungan bisnis
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button variant="hero" size="xl" className="group bg-white text-primary hover:bg-white/90">
-              Contact Sales
+              Hubungi Sales
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button variant="herOutline" size="xl" className="group border-white/40 text-white hover:bg-white/10">
               <Play className="mr-2 group-hover:scale-110 transition-transform" />
-              Request Demo
+              Minta Demo
             </Button>
           </div>
         </div>

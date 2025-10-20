@@ -14,48 +14,48 @@ import {
 const platforms = [
   {
     icon: Server,
-    title: "Physical Servers",
+    title: "Server Fisik",
     items: ["Windows", "Linux", "macOS", "Unix"]
   },
   {
     icon: Box,
-    title: "Virtual Servers",
+    title: "Server Virtual",
     items: ["VMware", "Hyper-V", "Nutanix AHV", "Oracle VM", "Proxmox"]
   },
   {
     icon: Monitor,
-    title: "Desktops & Workstations",
-    items: ["Windows PCs", "Mac", "Linux Desktops"]
+    title: "Desktop & Workstation",
+    items: ["Windows PC", "Mac", "Desktop Linux"]
   },
   {
     icon: Container,
     title: "Microservices",
-    items: ["Kubernetes", "Docker", "Container platforms"]
+    items: ["Kubernetes", "Docker", "Platform container"]
   },
   {
     icon: Database,
     title: "NAS & Storage",
-    items: ["NAS devices", "Object Storage", "File servers"]
+    items: ["Perangkat NAS", "Object Storage", "Server file"]
   },
   {
     icon: Briefcase,
-    title: "Enterprise Apps",
+    title: "Aplikasi Enterprise",
     items: ["Active Directory", "SAP HANA", "Oracle", "PostgreSQL", "MongoDB"]
   },
   {
     icon: CloudRain,
-    title: "SaaS Applications",
+    title: "Aplikasi SaaS",
     items: ["Microsoft 365", "Entra ID", "Salesforce", "Google Workspace"]
   },
   {
     icon: Cloud,
-    title: "Cloud Platforms",
+    title: "Platform Cloud",
     items: ["AWS", "Google Cloud", "Microsoft Azure"]
   },
   {
     icon: Video,
-    title: "CCTV Data",
-    items: ["Video surveillance", "Security footage archiving"]
+    title: "Data CCTV",
+    items: ["Video surveillance", "Pengarsipan rekaman keamanan"]
   }
 ];
 
@@ -65,10 +65,10 @@ const SupportedPlatforms = () => {
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Supported Data Types & Platforms
+            Jenis Data & Platform yang Didukung
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Comprehensive protection across your entire IT infrastructure
+            Perlindungan komprehensif di seluruh infrastruktur IT Anda
           </p>
         </div>
         

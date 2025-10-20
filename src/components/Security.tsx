@@ -3,36 +3,36 @@ import { Shield, Lock, Key, FileCheck, Server, Eye } from "lucide-react";
 
 const securityFeatures = [
   {
-    category: "Data Security",
+    category: "Keamanan Data",
     icon: Shield,
     features: [
-      "End-to-end encryption (in-transit and at-rest)",
-      "Ransomware detection and protection",
-      "Redundant backup (local + cloud)",
-      "Immutable backup copies",
-      "3-2-1 backup best practice compliance"
+      "Enkripsi end-to-end (dalam transit dan saat disimpan)",
+      "Deteksi dan perlindungan ransomware",
+      "Backup redundan (lokal + cloud)",
+      "Salinan backup yang tidak dapat diubah",
+      "Kepatuhan praktik terbaik backup 3-2-1"
     ]
   },
   {
-    category: "Access Security",
+    category: "Keamanan Akses",
     icon: Key,
     features: [
-      "VPN secure connectivity",
-      "Multi-factor authentication (MFA)",
-      "Role-based access control (RBAC)",
-      "Comprehensive access logs",
-      "Audit trail and compliance reporting"
+      "Konektivitas VPN aman",
+      "Otentikasi multi-faktor (MFA)",
+      "Kontrol akses berbasis peran (RBAC)",
+      "Log akses komprehensif",
+      "Jejak audit dan pelaporan kepatuhan"
     ]
   },
   {
-    category: "Infrastructure Security",
+    category: "Keamanan Infrastruktur",
     icon: Server,
     features: [
-      "Tier-3 data center facilities",
-      "Physical security controls",
-      "Network-level protection",
-      "ISO 27001 certified operations",
-      "GDPR and compliance ready"
+      "Fasilitas data center Tier-3",
+      "Kontrol keamanan fisik",
+      "Perlindungan tingkat jaringan",
+      "Operasi tersertifikasi ISO 27001",
+      "Siap GDPR dan kepatuhan"
     ]
   }
 ];
@@ -46,10 +46,10 @@ const Security = () => {
             <Lock className="w-10 h-10 text-primary" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Enterprise-Grade Security Architecture
+            Arsitektur Keamanan Tingkat Enterprise
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Multi-layered security protecting your data at every level
+            Keamanan berlapis melindungi data Anda di setiap tingkat
           </p>
         </div>
         
@@ -81,7 +81,7 @@ const Security = () => {
           <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary/10 border border-primary/20">
             <Eye className="w-5 h-5 text-primary" />
             <span className="text-sm font-medium text-foreground">
-              Continuous monitoring and proactive threat detection
+              Monitoring berkelanjutan dan deteksi ancaman proaktif
             </span>
           </div>
         </div>

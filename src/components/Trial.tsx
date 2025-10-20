@@ -12,10 +12,10 @@ const Trial = () => {
               <Rocket className="w-10 h-10 text-primary" />
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Try Arupa Backup Risk-Free
+              Coba Arupa Backup Tanpa Risiko
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Experience the power of comprehensive data protection with full technical support
+              Rasakan kekuatan perlindungan data komprehensif dengan dukungan teknis penuh
             </p>
           </div>
           
@@ -23,36 +23,36 @@ const Trial = () => {
             <div className="flex items-start gap-3">
               <CheckCircle2 className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
               <div>
-                <h4 className="font-semibold text-foreground mb-1">Full Feature Access</h4>
-                <p className="text-sm text-muted-foreground">Complete access to all Arupa Backup capabilities</p>
+                <h4 className="font-semibold text-foreground mb-1">Akses Fitur Lengkap</h4>
+                <p className="text-sm text-muted-foreground">Akses lengkap ke semua kemampuan Arupa Backup</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <CheckCircle2 className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
               <div>
-                <h4 className="font-semibold text-foreground mb-1">Technical Support</h4>
-                <p className="text-sm text-muted-foreground">Dedicated support team available throughout trial</p>
+                <h4 className="font-semibold text-foreground mb-1">Dukungan Teknis</h4>
+                <p className="text-sm text-muted-foreground">Tim dukungan dedikasi tersedia selama periode trial</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Clock className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
               <div>
-                <h4 className="font-semibold text-foreground mb-1">14-30 Day Trial</h4>
-                <p className="text-sm text-muted-foreground">Flexible trial period to thoroughly evaluate the solution</p>
+                <h4 className="font-semibold text-foreground mb-1">Trial 14-30 Hari</h4>
+                <p className="text-sm text-muted-foreground">Periode trial fleksibel untuk mengevaluasi solusi secara menyeluruh</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <CheckCircle2 className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
               <div>
-                <h4 className="font-semibold text-foreground mb-1">No Commitment</h4>
-                <p className="text-sm text-muted-foreground">No credit card required to start your trial</p>
+                <h4 className="font-semibold text-foreground mb-1">Tanpa Komitmen</h4>
+                <p className="text-sm text-muted-foreground">Tidak perlu kartu kredit untuk memulai trial Anda</p>
               </div>
             </div>
           </div>
           
           <div className="text-center">
             <Button size="xl" variant="hero">
-              Start Free Trial
+              Mulai Trial Gratis
             </Button>
           </div>
         </Card>

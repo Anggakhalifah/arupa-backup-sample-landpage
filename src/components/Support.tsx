@@ -4,20 +4,20 @@ import { Headphones, Mail, Phone, MessageSquare, Shield, Clock } from "lucide-re
 const supportChannels = [
   {
     icon: Mail,
-    title: "Email Support",
+    title: "Dukungan Email",
     description: "support@arupacloud.com",
     available: "24/7"
   },
   {
     icon: Phone,
-    title: "Phone Support",
-    description: "Direct line to our technical team",
-    available: "Business hours"
+    title: "Dukungan Telepon",
+    description: "Jalur langsung ke tim teknis kami",
+    available: "Jam kerja"
   },
   {
     icon: MessageSquare,
-    title: "Ticket Portal",
-    description: "Track and manage support requests",
+    title: "Portal Tiket",
+    description: "Lacak dan kelola permintaan dukungan",
     available: "24/7"
   }
 ];
@@ -31,10 +31,10 @@ const Support = () => {
             <Headphones className="w-10 h-10 text-primary" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            24/7 Technical Support
+            Dukungan Teknis 24/7
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our Managed Service team monitors proactively to prevent issues before they impact your operations
+            Tim Layanan Terkelola kami memantau secara proaktif untuk mencegah masalah sebelum berdampak pada operasi Anda
           </p>
         </div>
         
@@ -68,28 +68,28 @@ const Support = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold text-foreground mb-3">
-                Proactive Monitoring & Management
+                Monitoring & Pengelolaan Proaktif
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Our expert engineers continuously monitor your backup infrastructure, system health, and performance metrics. 
-                We identify and resolve potential issues before they become problems, ensuring your data protection is always optimal.
+                Teknisi ahli kami terus memantau infrastruktur backup, kesehatan sistem, dan metrik performa Anda. 
+                Kami mengidentifikasi dan menyelesaikan potensi masalah sebelum menjadi masalah, memastikan perlindungan data Anda selalu optimal.
               </p>
               <ul className="grid md:grid-cols-2 gap-3">
                 <li className="flex items-center text-sm text-muted-foreground">
                   <span className="w-1.5 h-1.5 rounded-full bg-accent mr-2" />
-                  Automated health checks
+                  Pemeriksaan kesehatan otomatis
                 </li>
                 <li className="flex items-center text-sm text-muted-foreground">
                   <span className="w-1.5 h-1.5 rounded-full bg-accent mr-2" />
-                  Performance optimization
+                  Optimisasi performa
                 </li>
                 <li className="flex items-center text-sm text-muted-foreground">
                   <span className="w-1.5 h-1.5 rounded-full bg-accent mr-2" />
-                  Incident response
+                  Respons insiden
                 </li>
                 <li className="flex items-center text-sm text-muted-foreground">
                   <span className="w-1.5 h-1.5 rounded-full bg-accent mr-2" />
-                  Regular reporting
+                  Pelaporan berkala
                 </li>
               </ul>
             </div>

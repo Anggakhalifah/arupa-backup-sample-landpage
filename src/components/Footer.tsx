@@ -17,19 +17,19 @@ const Footer = () => {
           
           <div className="flex flex-wrap justify-center gap-6 text-sm">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-              Privacy Policy
+              Kebijakan Privasi
             </a>
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-              Terms of Service
+              Syarat Layanan
             </a>
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-              Contact
+              Kontak
             </a>
           </div>
         </div>
         
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          © 2025 Arupa Cloud Nusantara. All rights reserved.
+          © 2025 Arupa Cloud Nusantara. Hak cipta dilindungi.
         </div>
       </div>
     </footer>

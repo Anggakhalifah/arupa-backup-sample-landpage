@@ -4,20 +4,20 @@ const WhyArupa = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Why Businesses Need Arupa Backup
+            Mengapa Bisnis Membutuhkan Arupa Backup
           </h2>
           <div className="max-w-4xl mx-auto space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              In today's digital landscape, data is your most valuable asset. <strong className="text-foreground">Arupa Backup</strong> simplifies 
-              the complexity of backup, recovery, and disaster recovery readiness by providing a unified, managed solution.
+              Di era digital saat ini, data adalah aset paling berharga Anda. <strong className="text-foreground">Arupa Backup</strong> menyederhanakan 
+              kompleksitas backup, recovery, dan kesiapan disaster recovery dengan menyediakan solusi terkelola yang terpadu.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              With seamless integration between on-premise and cloud infrastructure, our solution ensures your data is always safe, 
-              available, and recoverable — without the burden of managing complex infrastructure.
+              Dengan integrasi mulus antara infrastruktur on-premise dan cloud, solusi kami memastikan data Anda selalu aman, 
+              tersedia, dan dapat dipulihkan — tanpa beban mengelola infrastruktur yang kompleks.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Modern technology, expert management, and enterprise-grade security work together to deliver 
-              <strong className="text-foreground"> peace of mind and business continuity</strong> for organizations of all sizes.
+              Teknologi modern, pengelolaan ahli, dan keamanan tingkat enterprise bekerja sama untuk memberikan 
+              <strong className="text-foreground"> ketenangan pikiran dan keberlangsungan bisnis</strong> untuk organisasi dari segala ukuran.
             </p>
           </div>
         </div>
