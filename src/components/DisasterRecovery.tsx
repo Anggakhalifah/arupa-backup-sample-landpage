@@ -5,19 +5,19 @@ const drFeatures = [
   {
     icon: Zap,
     title: "Recovery Lokal",
-    description: "Recovery VM instan langsung dari perangkat Arupa Box",
+    description: "Instance Recovery VM langsung dari perangkat Arupa Box",
     color: "text-primary"
   },
   {
     icon: CloudOff,
     title: "Failover Cloud DR",
-    description: "Failover otomatis atau manual ke situs DR Arupa Cloud",
+    description: "Failover otomatis atau manual ke site DR Arupa Cloud",
     color: "text-accent"
   },
   {
     icon: ArrowLeftRight,
-    title: "Failback ke Primer",
-    description: "Kembali mulus ke situs utama setelah pemulihan",
+    title: "Failback to Production",
+    description: "Kembali mulus ke site utama setelah pemulihan",
     color: "text-primary"
   },
   {
@@ -75,7 +75,7 @@ const DisasterRecovery = () => {
                 </div>
                 <h4 className="font-semibold mb-2 text-foreground">Replikasi Berkelanjutan</h4>
                 <p className="text-sm text-muted-foreground">
-                  Data direplikasi secara berkelanjutan dari Arupa Box ke situs DR Arupa Cloud
+                  Data direplikasi secara berkelanjutan dari Arupa Box ke site DR Arupa Cloud
                 </p>
               </div>
               <div className="text-center">
@@ -84,7 +84,7 @@ const DisasterRecovery = () => {
                 </div>
                 <h4 className="font-semibold mb-2 text-foreground">Failover Otomatis</h4>
                 <p className="text-sm text-muted-foreground">
-                  Jika terjadi kegagalan situs utama, workload otomatis diaktifkan di cloud
+                  Jika terjadi kegagalan site utama, workload otomatis diaktifkan di cloud
                 </p>
               </div>
               <div className="text-center">
@@ -93,7 +93,7 @@ const DisasterRecovery = () => {
                 </div>
                 <h4 className="font-semibold mb-2 text-foreground">Failback Mulus</h4>
                 <p className="text-sm text-muted-foreground">
-                  Setelah situs utama dipulihkan, workload kembali tanpa kehilangan data
+                  Setelah site utama dipulihkan, workload kembali tanpa kehilangan data
                 </p>
               </div>
             </div>

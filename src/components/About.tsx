@@ -20,7 +20,7 @@ const About = () => {
             <ul className="text-lg text-muted-foreground leading-relaxed mb-6 space-y-2 text-left max-w-2xl mx-auto">
               <li><strong className="text-foreground">Arupa Box</strong> — perangkat backup on-premise yang aman dan andal</li>
               <li><strong className="text-foreground">Arupa Cloud</strong> — platform offsite Backup & Disaster Recovery untuk perlindungan ekstra</li>
-              <li>Teknologi Enterprise backup & replikasi</li>
+              <li><strong className="text-foreground">Enterprise Teknologi</strong> Backup dan Replikasi</li>
             </ul>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Semua komponen ini dikelola sepenuhnya oleh teknisi profesional Arupa, sehingga Pelanggan mendapatkan <strong className="text-foreground">backup lengkap, pemulihan cepat, dan perlindungan data end-to-end</strong> — tanpa perlu mengelola infrastruktur sendiri.
@@ -42,7 +42,7 @@ const About = () => {
               <Cloud className="w-8 h-8 text-accent" />
             </div>
             <h3 className="text-xl font-semibold mb-4 text-card-foreground">Arupa Cloud</h3>
-            <p className="text-muted-foreground">Situs disaster recovery offsite untuk keberlangsungan bisnis dan failover</p>
+            <p className="text-muted-foreground">Site disaster recovery offsite untuk keberlangsungan bisnis dan failover</p>
           </Card>
           
           <Card className="p-8 border-2 hover:border-primary/30 transition-all duration-300 hover:shadow-xl bg-gradient-card">

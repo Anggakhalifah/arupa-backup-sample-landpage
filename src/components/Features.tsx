@@ -32,7 +32,7 @@ const features = [
   {
     icon: CloudCog,
     title: "Disaster Recovery Terintegrasi",
-    description: "Failover otomatis ke situs DR cloud untuk keberlangsungan bisnis",
+    description: "Failover otomatis ke site DR cloud untuk keberlangsungan bisnis",
     color: "text-accent"
   },
   {
