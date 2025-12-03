@@ -11,19 +11,19 @@ const About = () => {
           </h2>
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              Arupa Backup adalah layanan perlindungan data terkelola yang dirancang untuk memberikan keamanan total tanpa kerumitan.
+              Arupa Backup hadir sebagai solusi All-in-One Backup & Disaster Recovery yang dirancang khusus untuk memenuhi kebutuhan 
+              pelanggan yang menginginkan perlindungan data menyeluruh tanpa kompleksitas teknis.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
               Solusi ini mengintegrasikan:
             </p>
             <ul className="text-lg text-muted-foreground leading-relaxed mb-6 space-y-2 text-left max-w-2xl mx-auto">
               <li><strong className="text-foreground">Arupa Box</strong> — perangkat backup on-premise yang aman dan andal</li>
-              <li><strong className="text-foreground">Arupa Cloud</strong> — situs Disaster Recovery offsite untuk perlindungan ekstra</li>
-              <li>Tools backup & replikasi yang terbukti stabil dan efisien</li>
-              <li>Keamanan endpoint terintegrasi untuk mencegah ancaman sejak awal</li>
+              <li><strong className="text-foreground">Arupa Cloud</strong> — platform offsite Backup & Disaster Recovery untuk perlindungan ekstra</li>
+              <li>Teknologi Enterprise backup & replikasi</li>
             </ul>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Semua komponen ini dikelola sepenuhnya oleh teknisi profesional Arupa, sehingga Anda mendapatkan <strong className="text-foreground">backup lengkap, pemulihan cepat, dan perlindungan data end-to-end</strong> — tanpa perlu mengelola infrastruktur sendiri.
+              Semua komponen ini dikelola sepenuhnya oleh teknisi profesional Arupa, sehingga Pelanggan mendapatkan <strong className="text-foreground">backup lengkap, pemulihan cepat, dan perlindungan data end-to-end</strong> — tanpa perlu mengelola infrastruktur sendiri.
             </p>
           </div>
         </div>
