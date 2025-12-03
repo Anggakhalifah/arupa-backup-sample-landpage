@@ -34,7 +34,7 @@ const Support = () => {
             Dukungan Teknis 24/7
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Tim Layanan Terkelola kami memantau secara proaktif untuk mencegah masalah sebelum berdampak pada operasi Anda
+            Tim Managed Service kami memantau secara proaktif untuk mencegah masalah sebelum berdampak pada operasi Anda
           </p>
         </div>
         
