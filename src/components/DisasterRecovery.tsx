@@ -62,43 +62,6 @@ const DisasterRecovery = () => {
             </Card>
           ))}
         </div>
-        
-        <Card className="p-8 md:p-12 border-2 border-primary/20 bg-gradient-to-br from-primary/5 to-accent/5">
-          <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-foreground mb-6 text-center">
-              Cara Kerja Arupa DR
-            </h3>
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="text-center">
-                <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center mx-auto mb-4 font-bold text-lg">
-                  1
-                </div>
-                <h4 className="font-semibold mb-2 text-foreground">Replikasi Berkelanjutan</h4>
-                <p className="text-sm text-muted-foreground">
-                  Data direplikasi secara berkelanjutan dari Arupa Box ke site DR Arupa Cloud
-                </p>
-              </div>
-              <div className="text-center">
-                <div className="w-12 h-12 rounded-full bg-accent text-accent-foreground flex items-center justify-center mx-auto mb-4 font-bold text-lg">
-                  2
-                </div>
-                <h4 className="font-semibold mb-2 text-foreground">Failover Otomatis</h4>
-                <p className="text-sm text-muted-foreground">
-                  Jika terjadi kegagalan site utama, workload otomatis diaktifkan di cloud
-                </p>
-              </div>
-              <div className="text-center">
-                <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center mx-auto mb-4 font-bold text-lg">
-                  3
-                </div>
-                <h4 className="font-semibold mb-2 text-foreground">Failback Mulus</h4>
-                <p className="text-sm text-muted-foreground">
-                  Setelah site utama dipulihkan, workload kembali tanpa kehilangan data
-                </p>
-              </div>
-            </div>
-          </div>
-        </Card>
       </div>
     </section>
   );
