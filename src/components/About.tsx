@@ -42,7 +42,7 @@ const About = () => {
             <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
               <Shield className="w-8 h-8 text-primary" />
             </div>
-            <h3 className="text-xl font-semibold mb-4 text-card-foreground">Layanan Terkelola</h3>
+            <h3 className="text-xl font-semibold mb-4 text-card-foreground">Managed Service</h3>
             <p className="text-muted-foreground">Pengelolaan profesional 24/7 dan keamanan endpoint terintegrasi</p>
           </Card>
         </div>
