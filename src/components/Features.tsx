@@ -14,7 +14,7 @@ const features = [
   {
     icon: Package,
     title: "Solusi All-in-One",
-    description: "Perangkat keras, perangkat lunak, dan layanan terkelola lengkap dalam satu paket",
+    description: "Perangkat keras, perangkat lunak, dan Managed Service lengkap dalam satu paket",
     color: "text-primary"
   },
   {
@@ -37,7 +37,7 @@ const features = [
   },
   {
     icon: Headphones,
-    title: "Layanan Terkelola 24/7",
+    title: "Managed Service 24/7",
     description: "Teknisi profesional memantau dan mengelola infrastruktur backup Anda",
     color: "text-primary"
   },

@@ -14,7 +14,7 @@ const Pricing = () => {
             Model Berlangganan Fleksibel
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            Arupa Backup menggunakan berlangganan berbasis OPEX yang mencakup perangkat keras, perangkat lunak, dan layanan terkelola.
+            Arupa Backup menggunakan berlangganan berbasis OPEX yang mencakup perangkat keras, perangkat lunak, dan Managed Service.
           </p>
         </div>
         
@@ -39,7 +39,7 @@ const Pricing = () => {
               <CheckCircle2 className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
               <div>
                 <h4 className="font-semibold text-foreground mb-1">Semua Termasuk</h4>
-                <p className="text-sm text-muted-foreground">Perangkat keras, perangkat lunak, dan layanan terkelola dalam satu berlangganan</p>
+                <p className="text-sm text-muted-foreground">Perangkat keras, perangkat lunak, dan Managed Service dalam satu berlangganan</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
