@@ -19,10 +19,10 @@ const Hero = () => {
       <div className="container relative z-10 px-4 py-20 mx-auto">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Solusi Backup & Disaster Recovery All-in-One
+            Backup & Disaster Recovery All-in-One Solution
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Sederhanakan perlindungan data dan keberlangsungan bisnis dengan Arupa Backup oleh Arupa Cloud Nusantara.
+            Sederhanakan perlindungan data dan keberlangsungan bisnis dengan Arupa Backup.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

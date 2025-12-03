@@ -10,13 +10,20 @@ const About = () => {
             Tentang Arupa Backup
           </h2>
           <div className="max-w-4xl mx-auto">
-            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              Arupa Backup adalah layanan perlindungan data terkelola yang menggabungkan <strong className="text-foreground">Arupa Box</strong> (perangkat backup on-premise), 
-              <strong className="text-foreground"> Arupa Cloud</strong> (situs DR offsite), tools backup & replikasi yang andal, dan keamanan endpoint terintegrasi — 
-              semuanya dikelola sepenuhnya oleh teknisi profesional.
+            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+              Arupa Backup adalah layanan perlindungan data terkelola yang dirancang untuk memberikan keamanan total tanpa kerumitan.
             </p>
+            <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+              Solusi ini mengintegrasikan:
+            </p>
+            <ul className="text-lg text-muted-foreground leading-relaxed mb-6 space-y-2 text-left max-w-2xl mx-auto">
+              <li><strong className="text-foreground">Arupa Box</strong> — perangkat backup on-premise yang aman dan andal</li>
+              <li><strong className="text-foreground">Arupa Cloud</strong> — situs Disaster Recovery offsite untuk perlindungan ekstra</li>
+              <li>Tools backup & replikasi yang terbukti stabil dan efisien</li>
+              <li>Keamanan endpoint terintegrasi untuk mencegah ancaman sejak awal</li>
+            </ul>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Pendekatan terintegrasi ini menyediakan <strong className="text-foreground">backup dan recovery lengkap</strong> tanpa kompleksitas infrastruktur.
+              Semua komponen ini dikelola sepenuhnya oleh teknisi profesional Arupa, sehingga Anda mendapatkan <strong className="text-foreground">backup lengkap, pemulihan cepat, dan perlindungan data end-to-end</strong> — tanpa perlu mengelola infrastruktur sendiri.
             </p>
           </div>
         </div>
