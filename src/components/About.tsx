@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Shield, Cloud, Server } from "lucide-react";
+import { Shield, Cloud, Server, RefreshCw } from "lucide-react";
 
 const About = () => {
   return (
@@ -28,13 +28,13 @@ const About = () => {
           </div>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8 mt-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
           <Card className="p-8 border-2 hover:border-primary/30 transition-all duration-300 hover:shadow-xl bg-gradient-card">
             <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
               <Server className="w-8 h-8 text-primary" />
             </div>
             <h3 className="text-xl font-semibold mb-4 text-card-foreground">Arupa Box</h3>
-            <p className="text-muted-foreground">Perangkat backup on-premise untuk recovery lokal cepat dan perlindungan data</p>
+            <p className="text-muted-foreground">Perangkat backup on-premise untuk Instance recovery</p>
           </Card>
           
           <Card className="p-8 border-2 hover:border-accent/30 transition-all duration-300 hover:shadow-xl bg-gradient-card">
@@ -42,7 +42,7 @@ const About = () => {
               <Cloud className="w-8 h-8 text-accent" />
             </div>
             <h3 className="text-xl font-semibold mb-4 text-card-foreground">Arupa Cloud</h3>
-            <p className="text-muted-foreground">Site disaster recovery offsite untuk keberlangsungan bisnis dan failover</p>
+            <p className="text-muted-foreground">Offsite backup dan Disaster Recovery Site untuk keberlangsungan bisnis</p>
           </Card>
           
           <Card className="p-8 border-2 hover:border-primary/30 transition-all duration-300 hover:shadow-xl bg-gradient-card">
@@ -50,7 +50,15 @@ const About = () => {
               <Shield className="w-8 h-8 text-primary" />
             </div>
             <h3 className="text-xl font-semibold mb-4 text-card-foreground">Managed Service</h3>
-            <p className="text-muted-foreground">Pengelolaan profesional 24/7 dan keamanan endpoint terintegrasi</p>
+            <p className="text-muted-foreground">Pengelolaan profesional 24/7 oleh Tim Expert Arupa</p>
+          </Card>
+          
+          <Card className="p-8 border-2 hover:border-accent/30 transition-all duration-300 hover:shadow-xl bg-gradient-card">
+            <div className="w-16 h-16 rounded-xl bg-accent/10 flex items-center justify-center mb-6">
+              <RefreshCw className="w-8 h-8 text-accent" />
+            </div>
+            <h3 className="text-xl font-semibold mb-4 text-card-foreground">Enterprise Teknologi</h3>
+            <p className="text-muted-foreground">Backup dan Replikasi dengan teknologi enterprise-grade</p>
           </Card>
         </div>
       </div>

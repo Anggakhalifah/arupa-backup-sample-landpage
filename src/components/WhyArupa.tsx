@@ -12,7 +12,7 @@ const WhyArupa = () => {
               kompleksitas backup, recovery, dan kesiapan disaster recovery dengan menyediakan solusi terkelola yang terpadu.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Dengan integrasi mulus antara infrastruktur on-premise dan cloud, solusi kami memastikan data Anda selalu aman, 
+              Dengan Flexiblast integrasi antara infrastruktur on-premise dan cloud, solusi kami memastikan data Anda selalu aman, 
               tersedia, dan dapat dipulihkan — tanpa beban mengelola infrastruktur yang kompleks.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
