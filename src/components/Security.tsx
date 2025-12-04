@@ -28,7 +28,7 @@ const securityFeatures = [
     category: "Keamanan Infrastruktur",
     icon: Server,
     features: [
-      "Fasilitas data center Tier-3",
+      "Fasilitas data center Tier-3 & Tier-4 (Arupa Cloud)",
       "Kontrol keamanan fisik",
       "Perlindungan tingkat jaringan",
       "Operasi tersertifikasi ISO 27001",
